@@ -1,0 +1,41 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+
+        <script>
+            // Var p starts at 0 then adding a * up to the 8th line 
+            for(var p = 0; p < 8; p++){
+            galaxybrain(p);
+            }
+            // Var p starts at 8 then subtracting to none
+             for(var p = 8; p > 0; p--){
+            galaxybrain(p);
+            }
+
+            //function functionName (parameters) {
+            // Stuff to do }
+            function galaxybrain(numStars){
+             var h ="";
+             for(var p = 0; p < numStars; p++){
+             h += "*";
+             }
+             console.log(h);
+            }
+
+        </script>
+
+        <!-- Notes -->
+        <!--
+            console.log(Parameter); Outputs the function into the console
+            Var VarName ="output"; 
+            for(var VarName = Num; VarName < (Function/num); VarName(++ or -- if your going up or down)){
+                VarName (+ or -)="output";
+            }
+            
+        -->
+
+    </body>
+</html>
+
